@@ -1,0 +1,140 @@
+.active {
+  border-radius: 67px;
+  background: #ecf0f3;
+  box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+  padding: 8px 20px;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Visby Round CF';
+  background: #ECF0F3 url(/images/right__back.svg);
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+
+.container {
+  width: 1400px;
+  margin-left: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+  font-family: "Visby Round CF";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  margin-right: 90px;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__text+.nav__text {
+  margin-left: 70px;
+}
+
+.nav__text :nth-child(1) {
+  padding: 8px 20px;
+  display: flex;
+}
+
+.nav__text:hover {
+  border-radius: 67px;
+  background: #ecf0f3;
+  box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+  transition: 0.5s linear;
+}
+
+
+/* main main main main main main */
+/* main main main main main main */
+/* main main main main main main */
+
+.main {
+  display: flex;
+}
+
+.works__left {
+  margin-left: -40px;
+}
+
+
+.edonish {
+  margin-bottom: -40px;
+  width: 330px;
+}
+
+.vatan-ict {
+  margin-left: -40px;
+  margin-bottom: -40px;
+  width: 330px;
+}
+
+.vkd {
+  margin-left: -40px;
+  margin-top: -40px;
+  width: 330px;
+}
+
+.smart-pay {
+  width: 330px;
+}
+
+
+/* gallery gallery gallery gallery */
+/* gallery gallery gallery gallery */
+/* gallery gallery gallery gallery */
+
+.gallery {
+  margin-top: 30px;
+  width: 681px;
+  height: 537px;
+  box-shadow: -12px -12px 24px rgba(255, 255, 255, 0.75), 12px 12px 24px rgba(80, 80, 80, 0.25);
+  border-radius: 28px;
+  padding: 23px 0px 0px 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+  background: #ECF0F3;
+  margin-left: 50px;
+}
+.gallery__h2{
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+  
+}
+
+::-webkit-scrollbar-thumb{
+  background: #d2d2d2;
+  box-shadow: inset -2px -2px 4px #FFFFFF, inset -2px -2px 4px #B4C1D5;
+  border-radius: 34px;
+}
+
+::-webkit-scrollbar-track{
+  height: 50px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-button{
+  height: 90px;
+}
+
+.photo{
+  padding: 10px;
+}
+
+.block__photos{
+  display: flex ;
+}
+

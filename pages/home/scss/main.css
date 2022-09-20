@@ -1,0 +1,424 @@
+@charset "UTF-8";
+body {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Visby Round CF";
+}
+
+.container {
+  width: 1315px;
+  margin-left: 50px;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+body {
+  background: #ECF0F3 url(/images/right__back.svg);
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-ExtraBold.eot");
+  src: local("Visby Round CF ExtraBold"), local("VisbyRoundCF-ExtraBold"), url("VisbyRoundCF-ExtraBold.eot?#iefix") format("embedded-opentype"), url("/./fonts/VisbyRoundCF-ExtraBold.woff2") format("woff2"), url("VisbyRoundCF-ExtraBold.woff") format("woff"), url("VisbyRoundCF-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-Heavy.eot");
+  src: local("Visby Round CF Heavy"), local("VisbyRoundCF-Heavy"), url("VisbyRoundCF-Heavy.eot?#iefix") format("embedded-opentype"), url("VisbyRoundCF-Heavy.woff2") format("woff2"), url("VisbyRoundCF-Heavy.woff") format("woff"), url("VisbyRoundCF-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-ExtraBoldOblique.eot");
+  src: local("Visby Round CF ExtraBold Oblique"), local("VisbyRoundCF-ExtraBoldOblique"), url("VisbyRoundCF-ExtraBoldOblique.eot?#iefix") format("embedded-opentype"), url("VisbyRoundCF-ExtraBoldOblique.woff2") format("woff2"), url("VisbyRoundCF-ExtraBoldOblique.woff") format("woff"), url("VisbyRoundCF-ExtraBoldOblique.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-Medium.eot");
+  src: local("Visby Round CF Medium"), local("VisbyRoundCF-Medium"), url("/fonts/VisbyRoundCF-Medium.eot") format("embedded-opentype"), url("/fonts/VisbyRoundCF-Medium.woff2") format("woff2"), url("/fonts/VisbyRoundCF-Medium.woff") format("woff"), url("/fonts/VisbyRoundCF-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-ExtraLight.eot");
+  src: local("Visby Round CF ExtraLight"), local("VisbyRoundCF-ExtraLight"), url("VisbyRoundCF-ExtraLight.eot?#iefix") format("embedded-opentype"), url("VisbyRoundCF-ExtraLight.woff2") format("woff2"), url("VisbyRoundCF-ExtraLight.woff") format("woff"), url("VisbyRoundCF-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-DemiBold.eot");
+  src: local("Visby Round CF DemiBold"), local("VisbyRoundCF-DemiBold"), url("/fonts/VisbyRoundCF-DemiBold.eot") format("embedded-opentype"), url("/fonts/VisbyRoundCF-DemiBold.woff2") format("woff2"), url("/fonts/VisbyRoundCF-DemiBold.woff") format("woff"), url("/fonts/VisbyRoundCF-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-HeavyOblique.eot");
+  src: local("Visby Round CF Heavy Oblique"), local("VisbyRoundCF-HeavyOblique"), url("VisbyRoundCF-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("VisbyRoundCF-HeavyOblique.woff2") format("woff2"), url("VisbyRoundCF-HeavyOblique.woff") format("woff"), url("VisbyRoundCF-HeavyOblique.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-LightOblique.eot");
+  src: local("Visby Round CF Light Oblique"), local("VisbyRoundCF-LightOblique"), url("VisbyRoundCF-LightOblique.eot?#iefix") format("embedded-opentype"), url("VisbyRoundCF-LightOblique.woff2") format("woff2"), url("VisbyRoundCF-LightOblique.woff") format("woff"), url("VisbyRoundCF-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-BoldOblique.eot");
+  src: local("Visby Round CF Bold Oblique"), local("VisbyRoundCF-BoldOblique"), url("VisbyRoundCF-BoldOblique.eot?#iefix") format("embedded-opentype"), url("VisbyRoundCF-BoldOblique.woff2") format("woff2"), url("VisbyRoundCF-BoldOblique.woff") format("woff"), url("VisbyRoundCF-BoldOblique.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-MediumOblique.eot");
+  src: local("Visby Round CF Medium Oblique"), local("VisbyRoundCF-MediumOblique"), url("VisbyRoundCF-MediumOblique.eot?#iefix") format("embedded-opentype"), url("VisbyRoundCF-MediumOblique.woff2") format("woff2"), url("VisbyRoundCF-MediumOblique.woff") format("woff"), url("VisbyRoundCF-MediumOblique.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-Bold.eot");
+  src: local("Visby Round CF Bold"), local("VisbyRoundCF-Bold"), url("/fonts/VisbyRoundCF-Bold.eot") format("embedded-opentype"), url("/fonts/VisbyRoundCF-Bold.woff2") format("woff2"), url("/fonts/VisbyRoundCF-Bold.woff") format("woff"), url("/fonts/VisbyRoundCF-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-DemiBoldOblique.eot");
+  src: local("Visby Round CF DemiBold Oblique"), local("VisbyRoundCF-DemiBoldOblique"), url("VisbyRoundCF-DemiBoldOblique.eot?#iefix") format("embedded-opentype"), url("VisbyRoundCF-DemiBoldOblique.woff2") format("woff2"), url("VisbyRoundCF-DemiBoldOblique.woff") format("woff"), url("/fonts/") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-Regular.eot");
+  src: local("Visby Round CF Regular"), local("VisbyRoundCF-Regular"), url("/fonts/VisbyRoundCF-Regular.eot") format("embedded-opentype"), url("/fonts/VisbyRoundCF-Regular.woff2") format("woff2"), url("/fonts/VisbyRoundCF-Regular.woff") format("woff"), url("/fonts/VisbyRoundCF-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-Oblique.eot");
+  src: local("Visby Round CF Oblique"), local("VisbyRoundCF-Oblique"), url("VisbyRoundCF-Oblique.eot?#iefix") format("embedded-opentype"), url("VisbyRoundCF-Oblique.woff2") format("woff2"), url("VisbyRoundCF-Oblique.woff") format("woff"), url("VisbyRoundCF-Oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-Light.eot");
+  src: local("Visby Round CF Light"), local("VisbyRoundCF-Light"), url("VisbyRoundCF-Light.eot?#iefix") format("embedded-opentype"), url("VisbyRoundCF-Light.woff2") format("woff2"), url("VisbyRoundCF-Light.woff") format("woff"), url("VisbyRoundCF-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Visby Round CF";
+  src: url("VisbyRoundCF-ExtraLightOblique.eot");
+  src: local("Visby Round CF ExtraLight Oblique"), local("VisbyRoundCF-ExtraLightOblique"), url("VisbyRoundCF-ExtraLightOblique.eot?#iefix") format("embedded-opentype"), url("VisbyRoundCF-ExtraLightOblique.woff2") format("woff2"), url("VisbyRoundCF-ExtraLightOblique.woff") format("woff"), url("VisbyRoundCF-ExtraLightOblique.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+  font-family: "Visby Round CF";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__text + .nav__text {
+  margin-left: 70px;
+}
+
+.nav__text {
+  padding: 8px 20px;
+}
+.nav__text:hover {
+  border-radius: 67px;
+  background: #ecf0f3;
+  box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+  transition: 0.5s linear;
+}
+
+.left__home__h1 {
+  font-family: "Visby Round CF";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 67px;
+}
+
+.home__article {
+  width: 520px;
+}
+
+.left__home {
+  margin-top: 40px;
+}
+
+.left__home__p {
+  font-family: "Visby Round CF";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.button__home {
+  background: #ecf0f3;
+  box-shadow: 3px 5px 20px rgba(80, 80, 80, 0.25);
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  margin-top: 50px;
+  font-family: "Visby Round CF";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(46, 46, 46, 0.7);
+}
+
+.button__home:hover {
+  border-radius: 67px;
+  background: #ecf0f3;
+  box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+}
+
+html {
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+}
+
+.right__home img {
+  margin-left: 260px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.active {
+  border-radius: 67px;
+  background: #ecf0f3;
+  box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+  padding: 8px 20px;
+}/*# sourceMappingURL=main.css.map */

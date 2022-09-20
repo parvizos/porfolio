@@ -1,0 +1,108 @@
+.active {
+  border-radius: 67px;
+  background: #ecf0f3;
+  box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+  padding: 8px 20px;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Visby Round CF';
+  background: #ECF0F3 url(/images/right__back.svg);
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+
+.container {
+  width: 1315px;
+  margin-left: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+  font-family: "Visby Round CF";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__text+.nav__text {
+  margin-left: 70px;
+}
+
+.nav__text :nth-child(1) {
+  padding: 8px 20px;
+  display: flex;
+}
+
+.nav__text:hover {
+  border-radius: 67px;
+  background: #ecf0f3;
+  box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+  transition: 0.5s linear;
+}
+
+
+
+
+
+
+/* main main main main main main */
+/* main main main main main main */
+/* main main main main main main */
+
+.main {
+  display: flex;
+}
+
+.contact__left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.contact__h1 {
+  font-family: 'Visby Round CF';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 67px;
+}
+
+.contact__p{
+  font-family: 'Visby Round CF';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+margin-top: 28px;
+}
+
+.social__link1{
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+.social__link2{
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.social__link3{
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+.contact__right img{
+  width: 500px;
+  margin-left: 425px;
+  margin-top: 20px;
+}

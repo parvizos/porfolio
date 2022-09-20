@@ -1,0 +1,158 @@
+.active {
+  border-radius: 67px;
+  background: #ecf0f3;
+  box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+  padding: 8px 20px;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Visby Round CF';
+  background: #ECF0F3 url(/images/right__back.svg);
+  background-position-x: right;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
+.container {
+  width: 1310px;
+  margin-left: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+  font-family: "Visby Round CF";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__text+.nav__text {
+  margin-left: 70px;
+}
+
+.nav__text :nth-child(1) {
+  padding: 8px 20px;
+  display: flex;
+}
+
+.nav__text:hover {
+  border-radius: 67px;
+  background: #ecf0f3;
+  box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+  transition: 0.5s linear;
+}
+
+
+
+/* main main main main main main */
+/* main main main main main main */
+/* main main main main main main */
+
+
+.main {
+  display: flex;
+}
+
+.about__left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.about__article {
+  width: 520px;
+}
+
+.about__h1 {
+  font-family: 'Visby Round CF';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 67px;
+}
+
+.about__p {
+  font-family: 'Visby Round CF';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.about__button {
+  width: 200px;
+  height: 50px;
+  background: #ECF0F3;
+  box-shadow: 3px 5px 20px rgba(80, 80, 80, 0.25);
+  border-radius: 40px;
+  margin-top: 50px;
+}
+
+.about__link {
+  font-family: 'Visby Round CF';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: rgba(46, 46, 46, 0.7);
+}
+
+.about__right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 37px;
+  margin-left: 475px;
+}
+
+.square {
+  width: 250px;
+  height: 160px;
+  background: #ECF0F3;
+  box-shadow: -12px -12px 24px rgba(255, 255, 255, 0.75), 12px 12px 24px rgba(80, 80, 80, 0.25);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.second__square{
+margin-top: 40px;
+margin-left: -132px;
+}
+.third__square{
+  margin-top: 40px;
+}
+
+.main__text {
+  font-family: 'Visby Round CF';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 77px;
+  margin-top: 5px;
+}
+
+.description {
+  font-family: 'Visby Round CF';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  margin-top: 10px;
+}
+
+
+.background{
+  margin-top: -73px;
+}

@@ -1,0 +1,32 @@
+@import "./base/base";
+@import "./base/reset";
+@import "./blocks/background";
+@import "./base/fonts";
+@import "./blocks/header-nav";
+@import "./blocks/h1-home";
+@import "./blocks/home-article.scss";
+@import "./blocks/p-home.scss";
+@import "./blocks/button__home";
+
+html{
+    overflow: hidden;
+}
+main{
+    display: flex;
+}
+
+.right__home{
+    img{
+        margin-left: 260px;
+        width: 500px;
+        margin-top: 20px;
+    }
+}
+
+.active{
+    border-radius: 67px;
+    background: #ecf0f3;
+    box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+    padding: 8px 20px;
+}
+        

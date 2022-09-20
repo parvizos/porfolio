@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+  font-family: "Visby Round CF";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__text + .nav__text {
+  margin-left: 70px;
+}
+
+.nav__text {
+    padding: 8px 20px;
+  &:hover {
+    border-radius: 67px;
+    background: #ecf0f3;
+    box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+    transition: 0.5s linear;
+  }
+}
+
+
+
