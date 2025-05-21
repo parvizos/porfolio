@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="cart-items">
+            <!-- Cart items will be displayed here -->
+            <!-- Example item:
+            <div class="cart-item">
+                <span class="item-name">Product Name</span>
+                <span class="item-price">$10.00</span>
+                <span class="item-quantity">1</span>
+                <span class="item-total">$10.00</span>
+            </div>
+            -->
+        </section>
+        <button id="checkout-button">Checkout</button>
+
+        <section id="payment-form-section" style="display: none;">
+            <h2>Payment Details</h2>
+            <form id="payment-form">
+                <div>
+                    <label for="cardholder-name">Cardholder Name:</label>
+                    <input type="text" id="cardholder-name" name="cardholder-name" required>
+                </div>
+                <div>
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="card-number" name="card-number" required>
+                </div>
+                <div>
+                    <label for="expiry-date">Expiry Date (MM/YY):</label>
+                    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                </div>
+                <div>
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </div>
+                <button type="button" id="confirm-payment-button">Confirm Payment</button>
+            </form>
+        </section>
+        <div id="payment-message" style="display: none;"></div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Our Store</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
