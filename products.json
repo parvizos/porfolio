@@ -1,0 +1,30 @@
+[
+  {
+    "id": "prod1001",
+    "name": "Classic Cotton T-Shirt",
+    "description": "A high-quality, comfortable t-shirt made from 100% premium cotton. Perfect for everyday wear.",
+    "price": 24.99,
+    "image": "images/tshirt_classic_cotton.png"
+  },
+  {
+    "id": "prod2002",
+    "name": "Stainless Steel Water Bottle",
+    "description": "Durable and eco-friendly 750ml water bottle. Keeps drinks cold for 24 hours or hot for 12 hours.",
+    "price": 18.75,
+    "image": "images/bottle_stainless.png"
+  },
+  {
+    "id": "prod3003",
+    "name": "Ceramic Coffee Mug",
+    "description": "A beautifully designed 12oz ceramic mug, perfect for your morning coffee or tea. Microwave and dishwasher safe.",
+    "price": 14.50,
+    "image": "images/mug_ceramic_coffee.png"
+  },
+  {
+    "id": "prod4004",
+    "name": "Wireless Bluetooth Headphones",
+    "description": "Over-ear headphones with noise-cancelling technology and a 20-hour battery life. Provides immersive sound quality.",
+    "price": 79.99,
+    "image": "images/headphones_wireless.png"
+  }
+]
